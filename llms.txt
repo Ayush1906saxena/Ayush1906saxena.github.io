@@ -1,0 +1,40 @@
+# Ayush Saxena
+
+> Software engineer in Bengaluru, India. Software Engineer 2 at JPMorgan Chase since February 2023; on his own time he builds AI systems that have to prove they work.
+
+Everything below is also on https://ayush1906saxena.github.io/ in plain HTML. Last updated 2026-10-21.
+
+## Facts
+
+- I'm Ayush Saxena, a software engineer in Bengaluru. By day I'm a Software Engineer 2 at JPMorgan Chase; on my own time I build AI systems that have to prove they work, like Meridian, the engine behind Warrantee.
+- I've been at JPMorgan Chase since February 2023, now as a Software Engineer 2, working on cloud and platform engineering: Kubernetes, Docker, Terraform, Oracle databases and CI/CD pipelines. I keep the details of internal work for a conversation.
+- Meridian is an AI engineering team: a planner, developers, a test engineer, a reviewer from a different model family and a judge take a change from request to pull request. Warrantee is the product on top: AI engineers that keep an app to a contract its owner approves. Source: [Warrantee](https://ayush1906saxena.github.io/warrantee/)
+- The hardest problem I've worked on is making AI agents' work trustworthy. Agents happily ship code that passes their own tests, so Meridian's gate checks every change against tests the agents never saw, plus an independent review. In my best full run, 0 of 14 real tasks shipped a wrong change; the open problem is that it still held back 5 correct ones. Source: [Proof page](https://ayush1906saxena.github.io/warrantee/proof)
+- Meridian is 10 services, mostly Java 21 and Spring Boot with PostgreSQL, running on Kubernetes, with tools exposed to agents over MCP and a React front end. A model-agnostic optimizer learns which model should do each step from the system's own past jobs.
+- On 18 October 2026 Meridian ran 14 real tasks from open-source projects like Gson, jsoup, Hugo and pytest: 3 delivered and correct, 0 wrong, 5 correct but held back by the checks, and 6 not solved or unfinished. I publish the misses, not just the wins. Source: [Warrantee proof](https://ayush1906saxena.github.io/warrantee/proof)
+- ArchitectIQ is a system design academy with a live AI interviewer: 174 lessons across 41 modules, then a mock interview that never gives you the answer, catches contradictions, probes every name you drop and scores you on 8 dimensions. Source: [ArchitectIQ](https://ayush1906saxena.github.io/architectiq/)
+- The trick in ArchitectIQ is that only the final speech layer uses an LLM. Tracking what you've covered, choosing the next question and scoring are deterministic, so the interviewer can't be talked into a better grade. Source: [ArchitectIQ README](https://github.com/Ayush1906saxena/architectiq)
+- ChaosGuard takes a GitHub URL and returns a security audit, attack chains, a chaos resilience report and fix pull requests. It's 14 services on Kafka with a Spring Boot gateway and Python agents, and it runs entirely on local models with Ollama and ChromaDB, so no code leaves the machine. Source: [ChaosGuard](https://ayush1906saxena.github.io/ChaosGuard/)
+- NetraAI screens for diabetic retinopathy in optical stores in India: a fundus photo becomes a screening report in seconds, using a RETFound vision-transformer ensemble with GradCAM so a human can see why. Source: [NetraAI on GitHub](https://github.com/Ayush1906saxena/NetraAI)
+- TradingBot is my algorithmic trading system for the NSE: 14 strategies, backtesting, paper trading with virtual money, and live execution through Dhan and Zerodha. Source: [TradingBot on GitHub](https://github.com/Ayush1906saxena/TradingBot)
+- PaySecure is a UPI payments app for people who can't see the screen: you say the amount in Hindi or English, scan a QR code, confirm with a fingerprint, and it checks the merchant before you pay. Source: [PaySecure on GitHub](https://github.com/Ayush1906saxena/PaySecure)
+- I build whole systems end to end and I measure them honestly. Meridian is ten services I designed, built and benchmarked on real open-source code, misses published. Add enterprise platform work at JPMorgan Chase, and I'm someone who can ship AI features a demanding team would actually trust.
+- I ship things properly: ArchitectIQ and ChaosGuard both have CI on GitHub Actions, multi-stage non-root Docker images published to GitHub Packages on every push, and their own websites deployed to GitHub Pages. Meridian runs on Kubernetes. Source: [ChaosGuard CI](https://github.com/Ayush1906saxena/ChaosGuard/actions)
+- My strongest languages are Java, Python and TypeScript. I work across Spring Boot, FastAPI, React and Next.js, PostgreSQL and Oracle, Kafka, Docker, Kubernetes and Terraform, and on the AI side multi-agent systems, evaluation, retrieval and local models.
+- AI can now write code faster than anyone can check it. What interests me is the checking: systems that prove their work before anyone has to trust them. Every project here has some version of that idea.
+- I studied Computer Science and Engineering at Vellore Institute of Technology and graduated in 2023 with a CGPA of 8.72.
+- I'm an AWS Certified Cloud Practitioner and I hold the Google Data Analytics Professional Certificate.
+- I've solved over 650 problems on LeetCode, so data structures and algorithms are solid ground for me.
+- This site is my own build: hundreds of thousands of particles simulated on the GPU with three.js TSL compute shaders, WebGPU where your browser has it and WebGL 2 where it doesn't. My face is sampled from a photo, and I'm answering you either with your browser's on-device AI or from my written records.
+- I'm open to conversations about software engineering roles, especially AI systems, agents and platform engineering. The best way to start is a message on LinkedIn. Source: [LinkedIn](https://www.linkedin.com/in/ayush-saxena-a766b418b)
+- LinkedIn is the fastest way to reach me, and all my public code is on GitHub. Source: [LinkedIn](https://www.linkedin.com/in/ayush-saxena-a766b418b)
+- I'm based in Bengaluru, India.
+
+## Links
+
+- [Portfolio](https://ayush1906saxena.github.io/)
+- [ArchitectIQ, project site](https://ayush1906saxena.github.io/architectiq/)
+- [ChaosGuard, project site](https://ayush1906saxena.github.io/ChaosGuard/)
+- [Warrantee, the product built on Meridian](https://ayush1906saxena.github.io/warrantee/) ([for AI assistants](https://ayush1906saxena.github.io/warrantee/llms.txt))
+- [GitHub](https://github.com/Ayush1906saxena)
+- [LinkedIn](https://www.linkedin.com/in/ayush-saxena-a766b418b)

@@ -1,0 +1,93 @@
+User-agent: *
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: GPTBot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Claude-User
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Bingbot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+User-agent: Googlebot
+Allow: /
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+
+Sitemap: https://ayush1906saxena.github.io/sitemap.xml
+Sitemap: https://ayush1906saxena.github.io/warrantee/sitemap.xml
